@@ -10,6 +10,8 @@ import { AboutComponent } from './about/about.component';
 import { HomeComponent } from './home/home.component';
 import { NavbarComponent } from './shared/navbar/navbar.component';
 import { ContentContainer } from './shared/content-container/content-container.component';
+import { SearchBarComponent } from './about/search-bar/search-bar.component';
+import { SearchResultsComponent } from './about/search-results/search-results.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { ContentContainer } from './shared/content-container/content-container.c
     AboutComponent,
     HomeComponent,
     NavbarComponent,
-    ContentContainer
+    ContentContainer,
+    SearchBarComponent,
+    SearchResultsComponent,
   ],
   imports: [
     BrowserModule,
