@@ -9,12 +9,15 @@ import { AlertModule } from 'ng2-bootstrap';
 import { AboutComponent } from './about/about.component';
 import { HomeComponent } from './home/home.component';
 import { NavbarComponent } from './shared/navbar/navbar.component';
+import { ContentContainer } from './shared/content-container/content-container.component';
+
 @NgModule({
   declarations: [
     AppComponent,
     AboutComponent,
     HomeComponent,
-    NavbarComponent
+    NavbarComponent,
+    ContentContainer
   ],
   imports: [
     BrowserModule,
