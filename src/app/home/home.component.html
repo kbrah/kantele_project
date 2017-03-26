@@ -1,4 +1,4 @@
 <content-container>
     <h3>Tervetuloa</h3>
-    <p>Täältä löydät kanteleelle sopivat teokset</p>
+    <p *ngFor="let comp of compositions">{{comp.composer}}</p>
 </content-container>

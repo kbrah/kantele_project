@@ -8,6 +8,11 @@
         </tr>
     </thead>
     <tbody>
+        <tr *ngFor="let comp of searchResults">
+            <td>{{comp.skill_level}}</td>
+            <td>{{comp.composer}}</td>
+            <td>{{comp.era_or_style}}</td>
+        </tr>
         <tr>
             <td>1</td>
             <td>Column content</td>
